@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attractive Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <h1>Smart watch</h1>
+      <p>This is a brief description of your product or service.</p>
+      <a href="#" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Features</h2>
+    <div class="feature">
+      <i class="fa fa-cogs"></i>
+      <h3>Easy to Use</h3>
+      <p></p>
+    </div>
+    <div class="feature">
+      <i class="fa fa-star"></i>
+      <h3>High Quality</h3>
+      <p></p>
+    </div>
+    <div class="feature">
+      <i class="fa fa-rocket"></i>
+      <h3>Fast and Efficient</h3>
+      <p></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy</p>
+  </footer>
+</body>
+</html>
+
+  
+
+
+
+
+
+
+
+index.css file
+
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff6f61;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .features {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .feature i {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ff6f61;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
